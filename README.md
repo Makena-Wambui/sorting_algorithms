@@ -28,4 +28,9 @@ Worst Case:
 o(n^2)
 The array is sorted in reverse order
 
-
+2. Write a function that sorts a doubly linked list of integers in ascending order using the
+Insertion sort algorithm
+● Prototype: void insertion_sort_list(listint_t **list);
+● You are not allowed to modify the integer n of a node. You have to swap the nodes
+themselves.
+● You’re expected to print the list after each time you swap two elements
