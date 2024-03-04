@@ -34,3 +34,14 @@ Insertion sort algorithm
 ● You are not allowed to modify the integer n of a node. You have to swap the nodes
 themselves.
 ● You’re expected to print the list after each time you swap two elements
+
+3. Selection Sort
+Suppose you have an unsorted array, arr.
+arr has 6 elements
+Subdivided into two subarrays: sorted and unsorted
+Same as Insertion Sort
+Initially the sorted subarray is empty unlike in Insertion Sort.
+From the Unsorted sublist, we find the minimum element.
+Then swap it with the element at the beginning of the unsorted subarray.
+Repeatedly do this with n-1 passes, just like in Bubble Sort.
+
