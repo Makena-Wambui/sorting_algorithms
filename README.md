@@ -45,3 +45,14 @@ From the Unsorted sublist, we find the minimum element.
 Then swap it with the element at the beginning of the unsorted subarray.
 Repeatedly do this with n-1 passes, just like in Bubble Sort.
 
+4. QUICK SORT ALGORITHM
+LOMUTO PARTITION SCHEME
+Partitioning scheme was named after Nico Lomuto,
+who is a Computer Scientist known for his work on the Ada Programming Language.
+In Lomuto Partition Scheme, the last element is always chosen as the Pivot element.
+The algorithm mantains two pointers i and j, which scan thro the array.
+If element at j is less than or equal to the pivot, i is incremented
+then elements at i and j are swapped.
+Process continues until the entire array has been scanned
+Pivot is then swapped with elemnt at i+1
+
